@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@id/flashcard_question_textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        >
+        <TextView
+            android:id="@+id/textCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:text="Questions : "/>
+        <TextView
+            android:id="@+id/Count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+             android:text="1"/>
+        </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/flashcard_question_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/cornertextview"
+
+        android:gravity="center"
+
+        android:text="who's the first female president of Haiti"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textViewReponse1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flashcard_question_textView"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/cornertvreponse"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Mirlande Manigat"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/textViewReponse2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:background="@drawable/cornertvreponse"
+        android:layout_below="@id/textViewReponse1"
+        android:text="Ertha Pascal Trouillot "
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/textViewReponse3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:background="@drawable/cornertvreponse"
+        android:layout_below="@id/textViewReponse2"
+        android:text="Claire Heureuse"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Submit"
+            android:layout_below="@id/textViewReponse3"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            />
+
+
+
+
+</RelativeLayout>

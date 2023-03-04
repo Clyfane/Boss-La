@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Boss Lady/AndroidStudioProjects/Clyfanesflashcard/app/src/main/res/drawable/applebananadogelephant.xml" value="0.1755" />
+        <entry key="..\:/Users/Boss Lady/AndroidStudioProjects/Clyfanesflashcard/app/src/main/res/drawable/cornertextview.xml" value="0.1" />
+        <entry key="..\:/Users/Boss Lady/AndroidStudioProjects/Clyfanesflashcard/app/src/main/res/drawable/cornertvreponse.xml" value="0.1075" />
+        <entry key="..\:/Users/Boss Lady/AndroidStudioProjects/Clyfanesflashcard/app/src/main/res/layout/activity_main.xml" value="0.32815533980582523" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
